@@ -1,0 +1,17 @@
+current directory: E:/RoR/rbox/apunia/vendor/bundle/ruby/2.7.0/gems/debug-1.4.0/ext/debug
+E:/Ruby27-x64/bin/ruby.exe -I E:/Ruby27-x64/lib/ruby/2.7.0 -r ./siteconf20220117-15944-1wmgnm5.rb extconf.rb
+creating Makefile
+
+current directory: E:/RoR/rbox/apunia/vendor/bundle/ruby/2.7.0/gems/debug-1.4.0/ext/debug
+make "DESTDIR=" clean
+
+current directory: E:/RoR/rbox/apunia/vendor/bundle/ruby/2.7.0/gems/debug-1.4.0/ext/debug
+make "DESTDIR="
+generating debug-x64-mingw32.def
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: E:/RoR/rbox/apunia/vendor/bundle/ruby/2.7.0/gems/debug-1.4.0/ext/debug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20220117-15944-sa67xq/debug

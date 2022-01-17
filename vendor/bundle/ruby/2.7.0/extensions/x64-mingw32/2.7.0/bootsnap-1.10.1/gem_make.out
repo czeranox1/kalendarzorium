@@ -1,0 +1,16 @@
+current directory: E:/RoR/rbox/apunia/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.10.1/ext/bootsnap
+E:/Ruby27-x64/bin/ruby.exe -I E:/Ruby27-x64/lib/ruby/2.7.0 -r ./siteconf20220117-15944-1pg3rmm.rb extconf.rb
+creating Makefile
+
+current directory: E:/RoR/rbox/apunia/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.10.1/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: E:/RoR/rbox/apunia/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.10.1/ext/bootsnap
+make "DESTDIR="
+generating bootsnap-x64-mingw32.def
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.so
+
+current directory: E:/RoR/rbox/apunia/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.10.1/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20220117-15944-jwl902/bootsnap

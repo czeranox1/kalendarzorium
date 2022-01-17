@@ -1,0 +1,16 @@
+current directory: E:/RoR/rbox/apunia/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+E:/Ruby27-x64/bin/ruby.exe -I E:/Ruby27-x64/lib/ruby/2.7.0 -r ./siteconf20220117-15944-aewiof.rb extconf.rb
+creating Makefile
+
+current directory: E:/RoR/rbox/apunia/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: E:/RoR/rbox/apunia/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+generating cruby-x64-mingw32.def
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: E:/RoR/rbox/apunia/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20220117-15944-tdthc9/skiptrace/internal

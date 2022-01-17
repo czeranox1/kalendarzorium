@@ -1,0 +1,19 @@
+current directory: E:/RoR/rbox/apunia/vendor/bundle/ruby/2.7.0/gems/io-wait-0.2.1/ext/io/wait
+E:/Ruby27-x64/bin/ruby.exe -I E:/Ruby27-x64/lib/ruby/2.7.0 -r ./siteconf20220117-15944-4zhw47.rb extconf.rb
+checking for rb_io_wait()... no
+checking for rb_w32_ioctlsocket() in ruby.h... yes
+checking for rb_w32_is_socket() in ruby.h... yes
+creating Makefile
+
+current directory: E:/RoR/rbox/apunia/vendor/bundle/ruby/2.7.0/gems/io-wait-0.2.1/ext/io/wait
+make "DESTDIR=" clean
+
+current directory: E:/RoR/rbox/apunia/vendor/bundle/ruby/2.7.0/gems/io-wait-0.2.1/ext/io/wait
+make "DESTDIR="
+generating wait-x64-mingw32.def
+compiling wait.c
+linking shared-object io/wait.so
+
+current directory: E:/RoR/rbox/apunia/vendor/bundle/ruby/2.7.0/gems/io-wait-0.2.1/ext/io/wait
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 wait.so ./.gem.20220117-15944-1gr9hip/io

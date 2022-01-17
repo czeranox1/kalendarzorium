@@ -1,0 +1,14 @@
+current directory: E:/RoR/rbox/apunia/vendor/bundle/ruby/2.7.0/gems/nio4r-2.5.8/ext/nio4r
+E:/Ruby27-x64/bin/ruby.exe -I E:/Ruby27-x64/lib/ruby/2.7.0 -r ./siteconf20220117-15944-aridqv.rb extconf.rb
+
+current directory: E:/RoR/rbox/apunia/vendor/bundle/ruby/2.7.0/gems/nio4r-2.5.8/ext/nio4r
+make "DESTDIR=" clean
+make: *** Brak reguł do wykonania obiektu 'clean'. Stop.
+
+current directory: E:/RoR/rbox/apunia/vendor/bundle/ruby/2.7.0/gems/nio4r-2.5.8/ext/nio4r
+make "DESTDIR="
+make: Nie ma nic do zrobienia w 'all'.
+
+current directory: E:/RoR/rbox/apunia/vendor/bundle/ruby/2.7.0/gems/nio4r-2.5.8/ext/nio4r
+make "DESTDIR=" install
+make: Nie ma nic do zrobienia w 'install'.
