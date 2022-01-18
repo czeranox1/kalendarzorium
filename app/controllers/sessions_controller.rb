@@ -12,6 +12,8 @@ class SessionsController < ApplicationController
           redirect_to user
         }
         format.json {
+          user.password = params[:session][:password]
+          user.regenerate_token
           render json: { token: user.token }
         }
       else

@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get    '/login',   to: 'sessions#new'
   post   '/login',   to: 'sessions#create'
   get   '/logout',  to: 'sessions#destroy'
+  get    '/feed',   to: 'static#feed'
   #get    '/logout',  to: 'static#index'
   #root 'home#index'
 
