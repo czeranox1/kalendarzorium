@@ -37,7 +37,7 @@ class LoginActivity : AppCompatActivity() {
 
     fun login(login: String, password: String) {
         Toast.makeText(this, "Logowanie (" + login + ":" + password +")", Toast.LENGTH_SHORT).show()
-        val url = "https://young-ocean-20644.herokuapp.com/login"
+        val url = "http://192.168.0.6:3000/login"
         val body = ("session[index]=" + login + "&session[password]=" + password).toRequestBody(FORM)
 
         httpPost(url, body,
